@@ -17,11 +17,11 @@ int main() {
     }
     printf("\n");
 
-    // **REAL-TIME SORTING (BUBBLE SORT)**
+    // REAL-TIME SORTING (BUBBLE SORT)
     for(int i=0; i<n-1; i++){
         for(int j=0; j<n-1-i; j++){
             if(a[j] > a[j+1]){
-                // **Show the swap happening in real-time**
+                // Show the swap happening in real-time
                 printf("\nSwapping %d and %d\n", a[j], a[j+1]);
 
                 // **Swap the numbers**
@@ -29,7 +29,7 @@ int main() {
                 a[j] = a[j+1];
                 a[j+1] = temp;
 
-                // **Print the array after each swap (like real-time sorting)**
+                // Print the array after each swap (like real-time sorting)
                 for(int k=0; k<n; k++){
                     printf("%d ",a[k]);
                 }
