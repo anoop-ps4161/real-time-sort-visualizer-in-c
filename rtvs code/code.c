@@ -24,7 +24,7 @@ int main() {
                 // Show the swap happening in real-time
                 printf("\nSwapping %d and %d\n", a[j], a[j+1]);
 
-                // **Swap the numbers**
+                // Swap the numbers
                 temp = a[j];
                 a[j] = a[j+1];
                 a[j+1] = temp;
